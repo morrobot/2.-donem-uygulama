@@ -1,0 +1,9 @@
+package Mor;
+
+public class Mor1 {
+	 public static void main(String[] args) {
+		 String strWithSpaceTabNewline = " abc def nnn n ghi \n\n\n"
+				 + "jnnnnnnkl mno";
+				 String formattedStr03 = strWithSpaceTabNewline.replace("n","a");
+				   System.out.println(":" + formattedStr03 + ":");
+	 }}
